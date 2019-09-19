@@ -8,6 +8,7 @@ import store from './store'
 import './icons'
 import './errorLog'
 import * as filters from './filters'
+import '@/utils/aos.js'
 
 Object.keys(filters).forEach(key => {
   Vue.filter(key, filters[key])
