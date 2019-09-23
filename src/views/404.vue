@@ -5,7 +5,7 @@
         <img
           class="pic-404__parent"
           :src="img_404"
-          alt="405"
+          alt="404"
         >
         <img
           class="pic-404__child left"
