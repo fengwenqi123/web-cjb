@@ -1,8 +1,14 @@
 <template>
-  <div class="container">
+  <div
+    id="anchor-0"
+    class="container"
+  >
     <div class="header">
       <div class="middle">
-        <div class="title">
+        <div
+          class="title"
+          data-aos="fade-down"
+        >
           <div class="left">
             <div class="icon" />
             <div class="font">
@@ -17,7 +23,13 @@
                 :key="index"
               >
                 <div class="item">
-                  {{ item.label }}
+                  <a
+                    href="javascript:void(0)"
+                    @click="goAnchor('#anchor-'+index)"
+                  >
+                    {{ item.label }}
+                  </a>
+
                 </div>
               </li>
             </ul>
@@ -45,7 +57,10 @@
                 <p>扫码下载船佳宝APP</p>
               </div>
               <div class="download_right">
-                <div class="android">
+                <div
+                  class="android"
+                  @click="download"
+                >
                   <svg-icon
                     class="svg"
                     icon-class="androids"
@@ -77,6 +92,16 @@ export default {
           label: '联系我们'
         }
       ]
+    }
+  },
+  methods: {
+    goAnchor(selector) {
+      var anchor = document.querySelector(selector)
+      console.log(anchor)
+      window.scrollTo(0, anchor.offsetTop)
+    },
+    download() {
+      window.open('https://cjbe88.com/cjbapk/app-release.apk')
     }
   }
 }
@@ -132,12 +157,15 @@ export default {
           justify-content: space-between;
           li {
             .item {
+              cursor: pointer;
               padding: 0 30px;
               height: 22px;
               font-size: 22px;
               font-family: Microsoft YaHei;
               font-weight: 400;
-              color: rgba(255, 255, 255, 1);
+              a {
+                color: rgba(255, 255, 255, 1);
+              }
             }
           }
         }

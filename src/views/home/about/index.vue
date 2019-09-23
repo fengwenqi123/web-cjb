@@ -1,5 +1,8 @@
 <template>
-  <div class="container">
+  <div
+    id="anchor-1"
+    class="container"
+  >
     <ititle :title="title" />
     <div
       class="main"
@@ -74,7 +77,8 @@ export default {
 
 <style lang="scss" scoped>
 .container {
-  margin-top: 128px;
+  padding-top: 128px;
+  padding-bottom: 160px;
   .main {
     width: 1436px;
     margin: 0 auto;
