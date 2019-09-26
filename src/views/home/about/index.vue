@@ -15,7 +15,7 @@
         >
       </div>
       <div class="value">
-        <p>浙江船佳宝科技有限公司</p>
+        <p>浙江船家宝科技有限公司</p>
         <div class="text">
           {{ content[active].value }}
         </div>
@@ -52,7 +52,7 @@ export default {
         {
           img: require('@/assets/img/about.png'),
           label: '公司简介',
-          value: ' 船佳宝是一家专注于内河航运移动互联网应用、船舶信息服务、航运物流和港航大数据分析为核心的互联网公司。'
+          value: ' 船家宝是一家专注于内河航运移动互联网应用、船舶信息服务、航运物流和港航大数据分析为核心的互联网公司。'
         },
         {
           img: require('@/assets/img/about.png'),
@@ -80,7 +80,7 @@ export default {
   padding-top: 128px;
   padding-bottom: 160px;
   .main {
-    width: 1436px;
+    width: 1200px;
     margin: 0 auto;
     margin-top: 108px;
     display: flex;

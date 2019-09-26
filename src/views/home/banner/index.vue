@@ -113,8 +113,9 @@ export default {
 }
 .header {
   height: 900px;
-  background: url("../../../assets/img/banner.png");
-  background-size: 100% 100%;
+  background: url("../../../assets/img/banner.png") no-repeat;
+  background-position: center;
+  background-size: 2000px 900px;
   .middle {
     width: 1124px;
     margin: 0 auto;

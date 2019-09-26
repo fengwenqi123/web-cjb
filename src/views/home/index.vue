@@ -1,5 +1,8 @@
 <template>
-  <div class="container">
+  <div
+    id="container"
+    class="container"
+  >
     <banner />
     <about />
     <service />
@@ -30,6 +33,6 @@ export default {
 
 <style lang="scss" scoped>
 .container {
-  width: 1920px;
+  width: 100%;
 }
 </style>
