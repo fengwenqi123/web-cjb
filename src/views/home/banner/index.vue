@@ -53,7 +53,12 @@
             </div>
             <div class="download">
               <div class="download_left">
-                <div class="ewm" />
+                <div class="ewm">
+                  <img
+                    src="../../../assets/img/ewm.png"
+                    alt=""
+                  >
+                </div>
                 <p>扫码下载船佳宝APP</p>
               </div>
               <div class="download_right">
@@ -218,15 +223,19 @@ export default {
           .download_left {
             margin-right: 40px;
             .ewm {
-              width: 170px;
-              height: 170px;
-              background: url("../../../assets/img/ewm.png");
-              background-size: 100% 100%;
+              padding: 8px;
+              background: #fff;
+              border-radius: 8px;
+              img {
+                width: 170px;
+                height: 170px;
+              }
             }
             p {
               margin-top: 10px;
               height: 18px;
               font-size: 18px;
+              text-align: center;
               font-family: Microsoft YaHei;
               font-weight: 400;
               color: rgba(255, 255, 255, 1);
