@@ -72,7 +72,7 @@ export default {
   },
   data() {
     return {
-      title: '船家宝优势'
+      title: '船佳宝优势'
     }
   }
 }

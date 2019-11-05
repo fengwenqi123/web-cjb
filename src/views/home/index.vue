@@ -19,20 +19,19 @@ import service from './service'
 import advantage from './advantage'
 import contact from './contact'
 import foot from './foot'
+
 export default {
   components: {
     banner, about, service, advantage, contact, foot
   },
   data() {
-    return {
-
-    }
+    return {}
   }
 }
 </script>
 
 <style lang="scss" scoped>
-.container {
-  width: 100%;
-}
+  .container {
+    width: 100%;
+  }
 </style>
