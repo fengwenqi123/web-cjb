@@ -13,7 +13,7 @@
             <div class="icon" />
             <div class="font">
               <p>船佳宝</p>
-              <span>www.cjbe88.com</span>
+              <span>zjeship.com</span>
             </div>
           </div>
           <div class="right">
@@ -106,7 +106,7 @@ export default {
       window.scrollTo(0, anchor.offsetTop)
     },
     download() {
-      window.open('https://cjbe88.com/cjbapk/app-release.apk')
+      window.open('https://apk.cjbe88.com/cjb/app.apk')
     }
   }
 }
@@ -223,7 +223,6 @@ export default {
           .download_left {
             margin-right: 40px;
             .ewm {
-              padding: 8px;
               background: #fff;
               border-radius: 8px;
               img {

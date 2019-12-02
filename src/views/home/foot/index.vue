@@ -1,7 +1,7 @@
 <template>
   <div class="container">
-    <p class="line1">公司地址：浙江省杭州市余杭区闲林都市产业园嘉企路16号华是科技园</p>
-    <p class="line2">船佳宝备案 浙ICP备19029734号</p>
+    <p class="line1">公司地址：浙江省杭州市余杭区五常街道荆山社区荆山湾68号</p>
+    <p class="line2">船佳宝备案 浙ICP备18015754号-1</p>
   </div>
 </template>
 

@@ -61,7 +61,7 @@ export default {
         },
         {
           label: '公司邮箱：',
-          value: '1007557735@qq.com'
+          value: 'zjycship@163.com'
         }
       ]
     }
