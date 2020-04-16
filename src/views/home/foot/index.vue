@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <p class="line1">公司地址：浙江省杭州市余杭区五常街道荆山社区荆山湾68号</p>
-    <p class="line2">船佳宝备案 浙ICP备18015754号-1</p>
+    <p class="line2"><a href="http://www.beian.miit.gov.cn" target="_blank">船佳宝备案 浙ICP备20009587号</a></p>
   </div>
 </template>
 
@@ -24,6 +24,12 @@ export default {
     font-size: 14px;
     font-weight: 400;
     color: rgba(153, 153, 153, 1);
+    a{
+      text-align: center;
+      font-size: 14px;
+      font-weight: 400;
+      color: rgba(153, 153, 153, 1);
+    }
   }
   .line1 {
     padding-top: 48px;
